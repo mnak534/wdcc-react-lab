@@ -10,7 +10,7 @@ function App() {
   const {pokemonList, onPokemonClick} = useContext(AppContext);
 
   return (
-    <div>
+    <div class = "wrapper">
       <React.Fragment>
         <h1>Pokédex</h1>
         <PokemonList/>

@@ -13,7 +13,7 @@ function PokemonList() {
     return(
         <div>
             <PokemonDetail pokemon = {currentPokemon}/>
-            <ul>
+            <ul class = "menu">
                 {pokemonList.map((pokemon, index) => (
                     <li key = {pokemon.id} onClick={() => onPokemonClick(index)}> No.{pokemon.id} : {pokemon.name} </li>
                     // <li key = {pokemon.id}> No.{pokemon.id} : {pokemon.name} </li>
